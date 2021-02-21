@@ -1,0 +1,17 @@
+body {
+    background-color: darkorange;
+    border-style: double;
+    border-color: midnightblue;
+}
+h1 {color:limegreen;
+    background-color: black;
+    font-style: italic;
+    font-size: medium;
+    text-align:center;
+    text-shadow: purple;
+    text-size-adjust:50px;
+}
+p {
+    font-family: monospace;
+    font: size 28px;
+}
