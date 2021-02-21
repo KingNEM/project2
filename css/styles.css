@@ -2,8 +2,15 @@ body {
     background-color: darkorange;
     border-style: double;
     border-color: midnightblue;
-}
+    @media screen and (min-width: 480px) {
+        body {
+            background-color: darkorange;
+            color: white;
+    }
 h1 {color:limegreen;
+    margin-bottom: auto;
+    padding: 20px;
+    border-end-start-radius:2px;
     background-color: black;
     font-style: italic;
     font-size: large;
