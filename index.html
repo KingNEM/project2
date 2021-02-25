@@ -9,8 +9,12 @@
         <link href="css/styles.css" rel="stylesheet" type="text/css">
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
 </head>
-        <body>
-        <h1>AKAN NAMING</h1>
+<body> 
+        <div class="unimportant">
+           
+                <h1>AKAN NAMING</h1>         
+
+        
 
      <p>Its an application that calculates the day a user is born depending on
          their gender and then outsputs their Akan name </p>
@@ -36,8 +40,10 @@
                  <li>Friday:Afua</li>
                  <li class="bg-danger">Saturday:Ama</li>
          </ul>
+</div>
 
 
+<div class=important>
          <form>
                 <!DOCTYPE html>
                 <html>
@@ -45,18 +51,23 @@
                 
                 <form action="/action_page.php" 
                 onsubmit="return validateform()" method="post">
-                dayBorn:<input type="text" birtday="fdayBorn" required>
-                Gender: <input type="radio" id="male" name="gender" value="male">                                                  
+            <Id>Month:<input type="text" Month="Month" required></Id>
+                dayBorn:<input type="text" dayBorn="fdayBorn" required>
+                
+        <Id> 
+                Gender: 
+                <input type="radio" id="male" name="gender" value="male">                                                  
                 <label for="male">Male</label><br>
                 <input type="radio" id="female" name="gender" value="female">
                 <label for="female">Female</label><br>
-                <input type="submit" value="Name">
-                Name:<input type="text" name="fname"
+        </Id>
+                Name:<input type="text" name="fname">
                 <input type="submit" value="submit">
 
 
 
          </form>
+        </div>
 
          <p>It has been exciting to know my Akan name</p>
 
