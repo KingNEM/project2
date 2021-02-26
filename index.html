@@ -37,30 +37,20 @@
                  <li class="bg-danger">Saturday:Ama</li>
          </ul>
 
-
-         <form>
-
-
-
-                Birthday:<input type="text" birtday="fbirthday">
-
-
-
-                Gender:<input type="text" gender="fgender">
-                
-
-
-                Name: <input type="text" name="fname">
-
-
-                <input type="submit" value="Submit">
-
-
-                
-
-
-
+        <div class="important">
+         <form action="/action_page.php">
+                <label>Day</label>
+                <input type="text" id="fday" placeholder="Input">
+                <label>Month</label>
+                <input type="text" id="fmonth" placeholder="Input">
+                <label>Year</label>
+                <input type="text" id="fyear" placeholder="Input">
+                <label>Gender</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <input type="radio" id="female" name="gender" value="female">
+                <input type="submit" value="Submit" onclick="AkanName">
          </form>
+        </div>
 
          <p>It has been exciting to know my Akan name</p>
 
