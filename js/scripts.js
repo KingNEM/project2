@@ -1,8 +1,6 @@
 
-const getName = () => {
-
-        
-let Month = document.getElementById
+const getName = () => {        
+let Month = prompt(document.getElementById
 ("Month")).value//check the users input
 let Year = prompt(document.getElementById("Year"))
 .value//check the users input
