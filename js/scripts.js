@@ -32,5 +32,4 @@ const female = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"]
 {if  (month <= 0) or (month > 12)
     >alert("invalid input");
 }
-// }
 
