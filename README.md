@@ -1,12 +1,20 @@
-# project2# This is web application that takes a user's birthday and
- 
-# calculates the day of the week they were born and depending 
- 
-# on their gender outputs their Akan Name
- 
- 
- 
-  By Elvis Mwenda
+# Project name : AKAN NAMING
+
+
+# Author name : Elvis Mwenda
+
+
+# Link :https://kingnem.github.io/project2/
+
+# Description :
+  This is an application through which a user is able to fill a form provided,
+  where the details filled in the form are used to determine 
+  the correct Akan name odf the user - Akan names are considered acording to the day the user was born
+  
+  
+  # Copyright @ (2021) Elvis Mwenda.
+  # License : MIT License
+
 
 
 
